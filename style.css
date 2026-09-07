@@ -1,7 +1,21 @@
+
 body {
     background-color: black;
     color: white;
 }
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: red;
+    border: 3px solid white;
+}
+a {
+    color: white;
+}
+
 
 .tabla {
     display: grid;
@@ -14,3 +28,29 @@ body {
     padding: 10px;
     border: 3px solid white;
 }
+
+.kort-rad {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.kort {
+    flex: 1 1 200px;
+    padding: 10px;
+    border: 3px solid white;
+    background-color: purple
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 12px;
+    background-color: #111;
+    color: white;
+}
+
+@media (max-width: 600px) { .tabla { grid-template-columns: 1fr; } }
