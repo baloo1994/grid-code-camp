@@ -2,3 +2,14 @@ body {
     background-color: black;
     color: white;
 }
+
+.tabla {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    gap: 1rem;
+}
+
+.avgang {
+    background-color: red;
+    padding: 10px
+}
